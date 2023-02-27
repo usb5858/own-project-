@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(108, 201, 185);
+}
+.beauty {
+    font-size: 50px;
+    font-family: Georgia;
+    text-align: center;
+    color: antiquewhite;
+    background-image: linear-gradient(to right, rgb(45, 140, 192), rgb(52, 214, 220));
+    border-radius: 5px;         
+    padding: 15px 15px 15px 15px;
+    margin-top: 15px;
+    
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -37px;
+}
+
+.line {
+     height:1px;
+     margin:10px 0 26px 0;
+     background:#4875e8;
+     border-bottom:1px solid #4875e8;
+}
+
+.border-color {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 100px;
+    color: black;
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+    img {
+        width: 100%;
+        height: 400px;
+    }
+}
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.history {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.border {
+    width: 300px;
+    height: 530px;
+    border-radius: 3%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top: 0px;
+}
+.registration {
+    text-align: center;
+    padding-top: 47px;
+    font-family: "Mulish"
+}
+
+.text-label {
+    display: block;
+    margin-top: -380px;
+    margin-left: 100px;
+  
+  }
+.input  {
+    margin-left: 25px;
+    margin-top: 27px;
+    width: 250px;
+    height: 30px;
+    font-style: italic;
+    border-radius: 5px; 
+}
+
+.city {
+    margin-left: 25px;
+    margin-top: 27px;
+    width: 250px;
+    height: 30px;
+    font-style: italic;
+    background-image: url(./strelka.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 50%;
+    
+}
+.input2 {
+    width: 14px;
+    height: 14px;
+    margin-left: 24px;
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    background-image: url(./note.svg)
+}
+.text {
+    font-family: "Mulish";
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 239px;
+    margin-left: 562px;
+}
+.input3 {
+    width: 253px;
+    height: 40px;
+    font-style: italic;
+    margin-top: -8px;
+    margin-left: 528px;
+    background-color: #45BDB6;
+    border: 1px solid #45BDB6;
+    border-radius: 5px; 
+}
+.registr1 {
+        font-family: 'Mulish';
+        font-size: 13px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 350px;
+        color: #FFFFFF;
+}
+.account {
+    font-family: 'Mulish';
+    font-size: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    color: #000000;
+}
+.colorText {
+    color: #506ED9;
+    font-weight: bold;
+}
